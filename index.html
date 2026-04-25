@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta class="Music">
+    <meta namespace="ESAT">
+    <meta name="description" content="Tiano_Productions es una empresa de producción musical especializada en la creación de mezclas personalizadas para eventos como bodas, bautizos, cumpleaños y otras celebraciones. Con un enfoque en la calidad y la satisfacción del cliente, Tiano_Productions ofrece una amplia variedad de estilos musicales para adaptarse a las preferencias de cada cliente. Desde mezclas de technopop hasta reguetton/dembow, Tiano_Productions se dedica a crear experiencias musicales únicas que harán que cualquier evento sea inolvidable.">
+    <meta name="author" content="Christian Pi Dumitrascu">
+    <meta name="keywords" content="producción musical, mezclas personalizadas, eventos, bodas, bautizos, cumpleaños y otras celebraciones">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tiano_Productions</title>
+</head>
+<style>
+    @font-face {
+        font-family: 'Pirata One';
+        src: url('PirataOne-Regular.css'); /*Aqui se pone la ruta del estilo que se está utilizando en este momento*/
+    }
+    body {
+        background-color: bisque;
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 20px;
+    }
+    table {
+        font-family: Verdana;
+        border-color: orange;
+    }
+    /*Aquí haremos que la web sea responsive, es decir, que se adapte a cualquier tamaño de pantalla*/
+    @media (max-width: 600px) {
+        table {
+            width: 100%;
+        }
+        td {
+            display: block;
+            width: 100%;
+        }
+    }
+    button {
+        background-color: orange;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        cursor: pointer;
+    }
+    
+</style>
+<body>
+<table border=1; style="width:1200px; height: 750px; border-collapse: collapse; text-align: center;">
+    <tr>
+    <td>Fotos</td>
+    <td>
+        <button>Sobre mí</button>
+    </td>
+    <td>Video(Demostración)</td>
+  </tr>
+
+  <tr>
+    <td colspan="3" style="font-family: 'Pirata One', Arial, sans-serif; font-size: 50px; font-size-adjust: initial;">Tiano_Productions</td>
+  </tr>
+
+  <tr>
+    <td>
+        <p style="font-family: 'Pirata One'; font-size: 20px;">FORMULARIO</p>
+        <label for="fname">Pon tu nombre</label>
+        
+        <input type="text" id="fname" name="fname" required>
+        <br>
+        <label for="lname">Pon tus apellidos</label>
+
+        <input type="text" id="lname" name="lname" required>
+        <br>
+        <label for="email">Pon tu correo electrónico</label>
+        <input type="email" id="email" name="email" required>
+        <br>
+        <label for="options">¿Que tipo de evento te interesa?</label>
+        <br>
+        <input type="radio" id="Event_type1" name="event_type" value="Bodas y Bautizos" required>
+  <label for="Event_type1">Bodas y Bautizos</label><br>
+  <input type="radio" id="Event_type2" name="event_type" value="Cumpleaños" required>
+  <label for="Event_type2">Cumpleaños</label><br>
+  <input type="radio" id="Event_type3" name="event_type" value="Otras celebraciones" required>
+  <label for="Event_type3">Otras celebraciones (detallar por correo)</label>
+    <br>
+        <button type="submit">Enviar</button>
+    </form>
+</td>
+    <td>
+        <p style="font-family: 'Pirata One'; font-size: 20px;">Redes sociales</p>
+        <a href="https://www.youtube.com/@Tiano_Productions" target="_blank">Youtube</a>
+    
+        <br>
+        <a href="https://www.instagram.com/tiano_productions/" target="_blank">Instagram</a>
+        <br>
+ 
+
+</body>
+</html>
